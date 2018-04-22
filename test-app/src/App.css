@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#conatiner {
+  display: flex;
+  justify-content: flex;
+}
+
+/* to do list */
+.todoListMain {
+  border: 2px solid blue;
+  margin: 20px 20px 50px 20px;
+}
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  width: 165px;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .thisList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+}
+.todoListMain .thisList li {
+  color: #000;
+  background-color: aqua;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  text-align: center;
+}
+ul.thisList {
+  padding: 0;
+  margin: 20px auto;
+}
+
+.books-wrapper {
+  border: 2px solid aqua;
+  margin: 50px 20px 20px 20px;
+}
+
+.books-wrapper ul {
+  padding: 0;
+  margin: 20px auto;
+  list-style: none;
+  padding-left: 0;
+  width: 500px;
+}
+
+.books-wrapper ul li {
+  color: #000;
+  background-color: #ccc;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.books-wrapper ul li h2 {
+  font-size: 16px;
+  color: #003399;
+}
+
+.books-wrapper ul li p {
+  font-size: 12px;
+}
+
+.books-wrapper ul li a {
+  color: #000;
+  font-size: 12px;
+}

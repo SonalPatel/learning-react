@@ -1,0 +1,14 @@
+10160530081770724
+
+access token 
+
+http://superheroapi.com/
+
+
+https://reactjs.org/docs/faq-ajax.html
+
+http://superheroapi.com/api/10160530081770724/
+
+http://superheroapi.com/api/10160530081770724/character-id
+
+http://www.superheroapi.com/api.php/10160530081770724/720
